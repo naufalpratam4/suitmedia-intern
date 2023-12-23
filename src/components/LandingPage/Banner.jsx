@@ -36,11 +36,7 @@ const Banner = () => {
   };
   return (
     <div style={bannerStyle}>
-      <img
-        src="src/assets/logo/banner.jpg"
-        alt="Banner Image"
-        style={imageStyle}
-      />
+      <img src="src/assets/banner.jpg" alt="Banner Image" style={imageStyle} />
       <div style={textStyle}>SUITMEDIA</div>
       <div style={descriptionStyle}>
         Suitmedia is a full-service digital agency that helps brands in digital

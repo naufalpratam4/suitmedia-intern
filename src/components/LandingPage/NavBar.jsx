@@ -76,7 +76,7 @@ export default function NavBar() {
           <Navbar.Brand href="/">
             <img
               alt=""
-              src="src/assets/logo/suitmedia.png"
+              src="src/assets/suitmedia.png"
               width="90"
               height="auto"
               className="d-inline-block align-top me-2"
