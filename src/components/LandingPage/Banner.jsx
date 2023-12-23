@@ -36,7 +36,11 @@ const Banner = () => {
   };
   return (
     <div style={bannerStyle}>
-      <img src={imgFrame} alt="Banner Image" style={imageStyle} />
+      <img
+        src="https://www.ambientha.com/wp-content/uploads/2020/11/idee-carta-da-parati-soggiorno-broken-ocean-ambientha-1024x682.jpg"
+        alt="Banner Image"
+        style={imageStyle}
+      />
       <div style={textStyle}>SUITMEDIA</div>
       <div style={descriptionStyle}>
         Suitmedia is a full-service digital agency that helps brands in digital
