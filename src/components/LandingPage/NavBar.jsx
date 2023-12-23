@@ -1,6 +1,6 @@
 import { Container, Navbar, Nav } from "react-bootstrap";
 import React, { useState, useEffect } from "react";
-
+import imgFrame from "../../assets/LandingPage/suitmedia.png";
 export default function NavBar() {
   const [hoveredLink, setHoveredLink] = useState(null);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -76,7 +76,7 @@ export default function NavBar() {
           <Navbar.Brand href="/">
             <img
               alt=""
-              src="src/assets/suitmedia.png"
+              src={imgFrame}
               width="90"
               height="auto"
               className="d-inline-block align-top me-2"

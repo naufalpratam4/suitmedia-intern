@@ -1,5 +1,5 @@
 import React from "react";
-
+import imgFrame from "../../assets/LandingPage/banner.jpg";
 const Banner = () => {
   const bannerStyle = {
     position: "relative",
@@ -36,7 +36,7 @@ const Banner = () => {
   };
   return (
     <div style={bannerStyle}>
-      <img src="src/assets/banner.jpg" alt="Banner Image" style={imageStyle} />
+      <img src={imgFrame} alt="Banner Image" style={imageStyle} />
       <div style={textStyle}>SUITMEDIA</div>
       <div style={descriptionStyle}>
         Suitmedia is a full-service digital agency that helps brands in digital
