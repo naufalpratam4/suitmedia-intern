@@ -1,6 +1,6 @@
 import { Container, Navbar, Nav } from "react-bootstrap";
 import React, { useState, useEffect } from "react";
-import imgFrame from "../../assets/LandingPage/suitmedia.png";
+import imgFrame from "/public/suitmedia.png";
 export default function NavBar() {
   const [hoveredLink, setHoveredLink] = useState(null);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
